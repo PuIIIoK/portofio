@@ -146,10 +146,10 @@ export default function Contact() {
                 <div className="flex items-center justify-between p-2 bg-card rounded-lg">
                   <div className="flex items-center gap-2">
                     <Phone className="w-4 h-4 text-primary" />
-                    <span className="text-secondary-foreground">+7 (999) 123-45-67</span>
+                    <span className="text-secondary-foreground">+7 959 536 57 54</span>
                   </div>
                   <button
-                    onClick={() => copyToClipboard('+7 (999) 123-45-67', 'phone')}
+                    onClick={() => copyToClipboard('+7 959 536 57 54', 'phone')}
                     className="p-1 hover:bg-secondary rounded transition-colors"
                   >
                     {copiedText === 'phone' ? (
@@ -163,10 +163,10 @@ export default function Contact() {
                 <div className="flex items-center justify-between p-2 bg-card rounded-lg">
                   <div className="flex items-center gap-2">
                     <Send className="w-4 h-4 text-primary" />
-                    <span className="text-secondary-foreground">dev@example.com</span>
+                    <span className="text-secondary-foreground">puiiiokiq@gmail.com</span>
                   </div>
                   <button
-                    onClick={() => copyToClipboard('dev@example.com', 'email')}
+                    onClick={() => copyToClipboard('puiiiokiq@gmail.com', 'email')}
                     className="p-1 hover:bg-secondary rounded transition-colors"
                   >
                     {copiedText === 'email' ? (
